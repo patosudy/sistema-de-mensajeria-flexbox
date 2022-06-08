@@ -1,0 +1,90 @@
+.body{
+    background-color: rgb(248, 248, 246);
+}
+
+.flex-container{
+    width: 100%;
+    display: flex;
+    border: 3px solid rgb(158, 139, 229);
+    background-color: rgb(184, 184, 178);
+    flex-direction: row;
+    justify-content: center;
+    }
+
+    .nav {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+      .nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background: rgb(250, 248, 248);
+        display: flex;
+      }
+      @media screen and (min-width: 480px) {
+        .nav ul {
+          display: flex;
+          justify-content: center;
+        }
+    }
+    .boton{
+        background-color: rgb(158, 139, 229);
+        color: aliceblue;
+        border: 1px solid rgb(158, 139, 229);
+        border-radius: 10%; 
+        text-align: justify;
+        justify-content: center;
+        display: flex;
+        padding: 0%;
+        margin: 10%;
+    }
+
+.contactos{
+    border: 2px solid rgb(158, 139, 229);
+    background-color: rgb(248, 245, 245);
+    color:rgb(11, 9, 9);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1%;
+    padding-top: 1%;
+    }
+
+.box{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+border: 3px black;
+ }
+
+.imagencontacto{
+    width: 5ex;
+    height: 5ex;
+    justify-content: flex-start;
+    border-radius: 50%;
+    
+}
+    
+.principal{
+    border: 1px solid rgb(158, 139, 229);
+    background-color: rgb(251, 247, 247);
+    color:rgb(7, 0, 0);
+    flex: 130ex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+.mano{
+justify-content: center;
+    width: 45%;
+}
+
+ 
